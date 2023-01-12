@@ -1,0 +1,55 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = 'hugo-theme-codex'
+
+[params]
+    twitter = "https://twitter.com/pietrogoodjohn"
+    github = "https://github.com/pgoodjohn"
+
+    iconOrder = ["Twitter", "GitHub"]
+
+[taxonomy]
+tags = true
+
+[[menu.main]]
+    identifier = "/index"
+    name = "/"
+    title = "/index"
+    url = "/" 
+    weight = -1000
+
+[[menu.main]]
+    identifier = "blog"
+    name = "/blog"
+    title = "blog"
+    url = "/blog"
+    weight = -900
+
+[[menu.main]]
+    identifier = "now"
+    name = "/now"
+    title = "now"
+    url = "/now"
+     weight = -800
+
+[[menu.main]]
+    identifier = "stack"
+    name = "/stack"
+    title = "stack"
+    url = "/stack"
+    weight = -700
+
+[[menu.main]]
+    identifier = "feed"
+    name = "/feed"
+    title = "feed"
+    url = "/blog/index.xml"
+    weight = 0
+
+
+
+[params.sidebar]
+    visible = true
+    title = "Hello World."
+    text = "This is the text. This is the text. This is the text. This is the text. "
