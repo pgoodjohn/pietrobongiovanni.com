@@ -4,7 +4,7 @@ date: 2023-01-01T06:56:13+01:00
 slug: "stack"
 description: ""
 keywords: []
-draft: true
+draft: false
 tags: []
 math: false
 toc: true

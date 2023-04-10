@@ -1,4 +1,4 @@
-baseURL = 'https://pietrobongiovanni.com/'
+baseURL = 'https://home.pietrobongiovanni.com/'
 languageCode = 'en-us'
 title = 'Pietro Bongiovanni'
 theme = 'hugo-theme-codex'
@@ -8,6 +8,10 @@ theme = 'hugo-theme-codex'
     github = "https://github.com/pgoodjohn"
 
     iconOrder = ["Twitter", "GitHub"]
+
+[markup]
+  [markup.highlight]
+    style = "solarized-light"
 
 [taxonomy]
 tags = true
@@ -51,7 +55,7 @@ tags = true
 
 [params.sidebar]
     visible = true
-    title = "I'm Pietro"
+    title = "I am Pietro"
     text = """
         I like to build things with Software.
         Right now, I am helping mollie scale online payments across Europe, and the rest of the world.
