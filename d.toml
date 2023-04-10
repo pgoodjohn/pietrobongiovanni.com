@@ -1,0 +1,3 @@
+[start]
+command = "hugo"
+arguments = "server -D"
