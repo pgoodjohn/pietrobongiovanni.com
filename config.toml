@@ -1,6 +1,6 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://pietrobongiovanni.com/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Pietro Bongiovanni'
 theme = 'hugo-theme-codex'
 
 [params]
@@ -26,19 +26,19 @@ tags = true
     url = "/blog"
     weight = -900
 
-[[menu.main]]
-    identifier = "now"
-    name = "/now"
-    title = "now"
-    url = "/now"
-     weight = -800
+# [[menu.main]]
+#     identifier = "now"
+#     name = "/now"
+#     title = "now"
+#     url = "/now"
+#      weight = -800
 
-[[menu.main]]
-    identifier = "stack"
-    name = "/stack"
-    title = "stack"
-    url = "/stack"
-    weight = -700
+# [[menu.main]]
+#     identifier = "stack"
+#     name = "/stack"
+#     title = "stack"
+#     url = "/stack"
+#     weight = -700
 
 [[menu.main]]
     identifier = "feed"
@@ -51,5 +51,8 @@ tags = true
 
 [params.sidebar]
     visible = true
-    title = "Hello World."
-    text = "This is the text. This is the text. This is the text. This is the text. "
+    title = "I'm Pietro"
+    text = """
+        I like to build things with Software.
+        Right now, I am helping mollie scale online payments across Europe, and the rest of the world.
+     """
