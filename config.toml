@@ -1,4 +1,4 @@
-baseURL = 'https://home.pietrobongiovanni.com/'
+baseURL = 'https://pietrobongiovanni.com/'
 languageCode = 'en-us'
 title = 'Pietro Bongiovanni'
 theme = 'hugo-theme-codex'
@@ -17,9 +17,9 @@ theme = 'hugo-theme-codex'
 tags = true
 
 [[menu.main]]
-    identifier = "/index"
-    name = "/"
-    title = "/index"
+    identifier = "/home"
+    name = "/home"
+    title = "/home"
     url = "/" 
     weight = -1000
 
@@ -58,5 +58,5 @@ tags = true
     title = "I am Pietro"
     text = """
         I like to build things with Software.
-        Right now, I am helping mollie scale online payments across Europe, and the rest of the world.
+        Right now, I am helping mollie scale online payments across Europe and the rest of the world.
      """
