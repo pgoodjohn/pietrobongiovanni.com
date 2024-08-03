@@ -4,7 +4,7 @@ date: 2024-08-03T07:14:06+02:00
 slug: "go-http-api-chekcer"
 description: ""
 keywords: ["golang", "programming", "ci"]
-draft: true
+draft: false
 tags: ["golang"]
 math: false
 toc: false

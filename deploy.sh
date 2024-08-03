@@ -26,7 +26,7 @@ echo "Deploying to remote server..."
 rsync -avz --omit-dir-times --delete ${DRYRUN_OPTION} "./public/" "${SSH_USER}@${SSH_HOST}:${REMOTE_DEPLOY_PATH}"
 
 if [ -z "${DRYRUN_OPTION}" ]; then
-    echo "Deployment complete!"
+    echo "🚀 🥳 Deployment complete! "
 else
     echo "Dryrun complete. No files were transferred."
 fi
