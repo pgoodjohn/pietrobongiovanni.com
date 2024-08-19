@@ -19,4 +19,22 @@ main {
   @media screen and (max-width: $medium - 1) {
     padding-top: calc(3rem + #{$burgerContainerHeight});
   }
+
+  @media screen and (min-width: 769px) {
+    .post {
+      input[type="checkbox"]:checked~label>img {
+        transform: scale(2.5);
+        cursor: zoom-out;
+        position: relative;
+        z-index: 999;
+      }
+
+      img {
+        transition: transform 0.15s ease;
+        z-index: 999;
+        cursor: zoom-in;
+      }
+    }
+  }
+
 }
