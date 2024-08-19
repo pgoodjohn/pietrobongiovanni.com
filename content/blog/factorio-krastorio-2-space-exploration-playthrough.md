@@ -22,7 +22,7 @@ By hour 200 of the save, I had built a massive train based mega base on Nauvis (
 
 In this base, every squared enclosed by railroad houses one or two factories which produce one or two products each. Each factory is connected via Logistic Train Stops thanks to the Logistic Train Network mod: for every item the factory requires there are train station that automatically request materials when needed, and for each item the factory produces, there are train stations that make the product available for other factories to use. Trains sit in a depot ready to be summoned whenever a factory block requires a material and the system finds one available in another factory.
 
-![Nauvis Train Depot](/images/factorio-200h/nauvis-base-train-depot-1.png)
+![Nauvis Train Depot](/images/factorio-200h/nauvis-base-train-depot.png)
 
 This type of design is a staple in Factorio and is particularly good with a mod set as heavy as the one I am playing: there are so many resources and intermediate product that you will need along the way and with this base there are no real constraint on how much I can expand. I can keep adding blocks that produce more items, and I can scale up production of items as I see bottleneck in the factory's evolution.
 
