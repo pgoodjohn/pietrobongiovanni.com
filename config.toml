@@ -4,31 +4,31 @@ title = 'Pietro Bongiovanni'
 theme = 'hugo-theme-codex'
 
 [params]
-    twitter = "https://twitter.com/pietrogoodjohn"
-    github = "https://github.com/pgoodjohn"
+twitter = "https://twitter.com/pietrogoodjohn"
+github = "https://github.com/pgoodjohn"
 
-    iconOrder = ["Twitter", "GitHub"]
+iconOrder = ["Twitter", "GitHub"]
 
 [markup]
-  [markup.highlight]
-    style = "solarized-light"
+[markup.highlight]
+style = "solarized-light"
 
 [taxonomy]
 tags = true
 
 [[menu.main]]
-    identifier = "/home"
-    name = "/home"
-    title = "/home"
-    url = "/" 
-    weight = -1000
+identifier = "/home"
+name = "/home"
+title = "/home"
+url = "/"
+weight = -1000
 
 [[menu.main]]
-    identifier = "blog"
-    name = "/blog"
-    title = "blog"
-    url = "/blog"
-    weight = -900
+identifier = "blog"
+name = "/blog"
+title = "blog"
+url = "/blog"
+weight = -900
 
 # [[menu.main]]
 #     identifier = "now"
@@ -45,18 +45,19 @@ tags = true
 #     weight = -700
 
 [[menu.main]]
-    identifier = "feed"
-    name = "/feed"
-    title = "feed"
-    url = "/blog/index.xml"
-    weight = 0
-
+identifier = "feed"
+name = "/feed"
+title = "feed"
+url = "/blog/index.xml"
+weight = 0
 
 
 [params.sidebar]
-    visible = true
-    title = "I am Pietro"
-    text = """
+visible = true
+title = "I am Pietro"
+text = """
         I like to build things with Software.
         Right now, I am helping mollie scale online payments across Europe and the rest of the world.
      """
+
+prams.assets.disableFingerprinting = true
